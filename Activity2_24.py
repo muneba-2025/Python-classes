@@ -50,7 +50,7 @@ def pick():
 						break 
 
 			
-			if guess<100 or guess>1: 
+			if guess>100 or guess<1: 
 				print("Silly Goose! That number isn't in the range!")
 				time.sleep(.25)
 				print("Please enter a number between 1 and 100")
